@@ -21843,7 +21843,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.059273116, y: 0.000000012882565, z: -7.6493467e-10, w: 0.99824184}
+  m_LocalRotation: {x: 0.059273116, y: 0.000000012882095, z: -7.649068e-10, w: 0.99824184}
   m_LocalPosition: {x: 0, y: 2.5, z: -5.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -32677,7 +32677,6 @@ GameObject:
   - component: {fileID: 1378588946}
   - component: {fileID: 1378588948}
   - component: {fileID: 1378588947}
-  - component: {fileID: 1378588949}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -32713,11 +32712,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50563ed1c1f9f2f449de27773a73fa2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 1378588948}
-  currentCamera: {fileID: 963194228}
-  animator: {fileID: 6614889187831359618}
-  moveSpeed: 12
-  rotationSpeed: 720
+  _moveSpeed: 12
+  _rotationSpeed: 720
 --- !u!143 &1378588948
 CharacterController:
   m_ObjectHideFlags: 0
@@ -32736,22 +32732,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
---- !u!54 &1378588949
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1378588945}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!1 &1392373653
 GameObject:
   m_ObjectHideFlags: 0
@@ -33677,7 +33657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7393e5dff858e9e4d80b7b146525146a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveInputEvent:
+  _moveInputEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1378588947}
@@ -33692,7 +33672,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  sprintInputEvent:
+  _sprintInputEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1378588947}
@@ -40009,7 +39989,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681649641}
-  m_LocalRotation: {x: 0.059273116, y: 0.000000006441985, z: -3.82509e-10, w: 0.99824184}
+  m_LocalRotation: {x: 0.059273116, y: 0.0000000064410486, z: -3.8245337e-10, w: 0.99824184}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -46638,7 +46618,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950980779}
-  m_LocalRotation: {x: 0.041153807, y: -0.0000000021651576, z: 8.918004e-11, w: 0.99915284}
+  m_LocalRotation: {x: 0.041153807, y: 0.0000000021489754, z: -8.85135e-11, w: 0.99915284}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
