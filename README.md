@@ -1,5 +1,5 @@
 
-# Health Racer Game
+# New Input System Practice
 ## Purpose and Platform
  - **Platform :** Pc (Windows, Mac, Linux)
  - **Engine :** Unity 2020.3.6f1
